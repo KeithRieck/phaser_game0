@@ -1,16 +1,21 @@
 {
     "name": "phaser_game0",
     "description": "Sample game using the Phaser/Typescript/ESBuild template",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "index.js",
     "scripts": {
-        "dev": "node log.js dev & node esbuild/dev.server.mjs -w",
-        "build": "node log.js build & node esbuild/build.prod.mjs",
+        "dev-log": "node log.js dev & node esbuild/dev.server.mjs -w",
+        "build-log": "node log.js build & node esbuild/build.prod.mjs",
         "clean": "rimraf dist",
-        "dev-nolog": "node esbuild/dev.server.mjs -w",
-        "build-nolog": "node esbuild/build.prod.mjs"
+        "dev": "node esbuild/dev.server.mjs -w",
+        "build": "node esbuild/build.dev.mjs",
+        "build-prod": "node esbuild/build.prod.mjs"
     },
     "author": "Keith Rieck",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KeithRieck/phaser_game0.git"
+    },
     "license": "MIT",
     "dependencies": {
         "phaser": "^3.88.2"

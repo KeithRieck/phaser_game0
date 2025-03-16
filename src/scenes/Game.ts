@@ -89,7 +89,7 @@ export class Game extends Scene {
         }
     }
 
-    private collectStar(player: any, star: any) {
+    private collectStar(player: any, star: any): void {
         star.disableBody(true, true);
         this.score += 10;
         this.scoreText.setText('Score: ' + this.score);
@@ -107,7 +107,7 @@ export class Game extends Scene {
         }
     };
 
-    private hitBomb(player: any, bomb: any) {
+    private hitBomb(player: any, bomb: any): void {
         this.physics.pause();
         player.setTint(0xff0000);
         player.anims.play('turn');
