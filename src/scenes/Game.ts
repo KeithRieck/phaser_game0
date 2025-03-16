@@ -1,5 +1,8 @@
 import { Scene, Physics, Types, GameObjects } from 'phaser';
 
+/**
+ * Main Game Scene.
+ */
 export class Game extends Scene {
 
     player: Types.Physics.Arcade.SpriteWithDynamicBody;
