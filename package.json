@@ -22,7 +22,7 @@
     },
     "devDependencies": {
         "@jgoz/esbuild-plugin-livereload": "^2.0.5",
-        "esbuild": "^0.21.2",
+        "esbuild": "^0.25.0",
         "esbuild-plugin-clean": "^1.0.1",
         "esbuild-plugin-copy": "^2.1.1",
         "esbuild-plugin-inline-image": "^0.0.9",
