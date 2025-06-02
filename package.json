@@ -1,12 +1,12 @@
 {
     "name": "phaser_game0",
     "description": "Sample game using the Phaser/Typescript/ESBuild template",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "index.js",
     "scripts": {
         "dev-log": "node log.js dev & node esbuild/dev.server.mjs -w",
         "build-log": "node log.js build & node esbuild/build.prod.mjs",
-        "clean": "rimraf dist",
+        "clean": "rimraf docs",
         "dev": "node esbuild/dev.server.mjs -w",
         "build": "node esbuild/build.dev.mjs",
         "build-prod": "node esbuild/build.prod.mjs"
