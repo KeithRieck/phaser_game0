@@ -37,6 +37,10 @@ const builder = async () => {
                     { from: './public/style.css', to: './' },
                     { from: './public/favicon.ico', to: './' },
                     { from: './public/favicon.png', to: './' },
+                    { from: './public/icon_128x128.png', to: './' },
+                    { from: './public/apple-touch-icon.png', to: './' },
+                    { from: './public/site.webmanifest', to: './' },
+                    { from: './public/sw.js', to: './' },
                     { from: './public/assets/**/*', to: './assets/' }
                 ],
             }),
